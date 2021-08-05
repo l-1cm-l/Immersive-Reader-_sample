@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		84860F9826BB854D00F7D866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860F9726BB854D00F7D866 /* AppDelegate.swift */; };
 		84860F9A26BB854D00F7D866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860F9926BB854D00F7D866 /* SceneDelegate.swift */; };
-		84860F9C26BB854D00F7D866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860F9B26BB854D00F7D866 /* ViewController.swift */; };
-		84860F9F26BB854D00F7D866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84860F9D26BB854D00F7D866 /* Main.storyboard */; };
+		84860F9C26BB854D00F7D866 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860F9B26BB854D00F7D866 /* LaunchViewController.swift */; };
 		84860FA126BB855100F7D866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84860FA026BB855100F7D866 /* Assets.xcassets */; };
-		84860FA426BB855100F7D866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84860FA226BB855100F7D866 /* LaunchScreen.storyboard */; };
+		84860FAC26BB869F00F7D866 /* ImmersiveReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860FAB26BB869F00F7D866 /* ImmersiveReaderViewController.swift */; };
+		84860FAE26BB86D400F7D866 /* LaunchImmersiveReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84860FAD26BB86D400F7D866 /* LaunchImmersiveReader.swift */; };
+		84A2C8EA26BB8B3500C41163 /* iFrameMessaging.js in Resources */ = {isa = PBXBuildFile; fileRef = 84A2C8E926BB8B3500C41163 /* iFrameMessaging.js */; };
+		84A2C8EC26BB8B5200C41163 /* ImmersiveReader.html in Resources */ = {isa = PBXBuildFile; fileRef = 84A2C8EB26BB8B5200C41163 /* ImmersiveReader.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84860F9426BB854D00F7D866 /* Immersive Reader _sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immersive Reader _sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84860F9726BB854D00F7D866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84860F9926BB854D00F7D866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84860F9B26BB854D00F7D866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84860F9E26BB854D00F7D866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84860F9B26BB854D00F7D866 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		84860FA026BB855100F7D866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84860FA326BB855100F7D866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84860FA526BB855100F7D866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84860FAB26BB869F00F7D866 /* ImmersiveReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveReaderViewController.swift; sourceTree = "<group>"; };
+		84860FAD26BB86D400F7D866 /* LaunchImmersiveReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchImmersiveReader.swift; sourceTree = "<group>"; };
+		84A2C8E926BB8B3500C41163 /* iFrameMessaging.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = iFrameMessaging.js; sourceTree = "<group>"; };
+		84A2C8EB26BB8B5200C41163 /* ImmersiveReader.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ImmersiveReader.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		84860F9626BB854D00F7D866 /* Immersive Reader _sample */ = {
 			isa = PBXGroup;
 			children = (
+				84A2C8E826BB8AF900C41163 /* Resources  */,
 				84860F9726BB854D00F7D866 /* AppDelegate.swift */,
 				84860F9926BB854D00F7D866 /* SceneDelegate.swift */,
-				84860F9B26BB854D00F7D866 /* ViewController.swift */,
-				84860F9D26BB854D00F7D866 /* Main.storyboard */,
+				84860F9B26BB854D00F7D866 /* LaunchViewController.swift */,
 				84860FA026BB855100F7D866 /* Assets.xcassets */,
-				84860FA226BB855100F7D866 /* LaunchScreen.storyboard */,
+				84860FAB26BB869F00F7D866 /* ImmersiveReaderViewController.swift */,
+				84860FAD26BB86D400F7D866 /* LaunchImmersiveReader.swift */,
 				84860FA526BB855100F7D866 /* Info.plist */,
 			);
 			path = "Immersive Reader _sample";
+			sourceTree = "<group>";
+		};
+		84A2C8E826BB8AF900C41163 /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				84A2C8E926BB8B3500C41163 /* iFrameMessaging.js */,
+				84A2C8EB26BB8B5200C41163 /* ImmersiveReader.html */,
+			);
+			path = "Resources ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84860FA426BB855100F7D866 /* LaunchScreen.storyboard in Resources */,
 				84860FA126BB855100F7D866 /* Assets.xcassets in Resources */,
-				84860F9F26BB854D00F7D866 /* Main.storyboard in Resources */,
+				84A2C8EC26BB8B5200C41163 /* ImmersiveReader.html in Resources */,
+				84A2C8EA26BB8B3500C41163 /* iFrameMessaging.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +151,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84860F9C26BB854D00F7D866 /* ViewController.swift in Sources */,
+				84860F9C26BB854D00F7D866 /* LaunchViewController.swift in Sources */,
+				84860FAC26BB869F00F7D866 /* ImmersiveReaderViewController.swift in Sources */,
+				84860FAE26BB86D400F7D866 /* LaunchImmersiveReader.swift in Sources */,
 				84860F9826BB854D00F7D866 /* AppDelegate.swift in Sources */,
 				84860F9A26BB854D00F7D866 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		84860F9D26BB854D00F7D866 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84860F9E26BB854D00F7D866 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84860FA226BB855100F7D866 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84860FA326BB855100F7D866 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84860FA626BB855100F7D866 /* Debug */ = {
