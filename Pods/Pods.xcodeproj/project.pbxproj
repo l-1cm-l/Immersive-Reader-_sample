@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A92EA244C138F8377331C29DEB979154 /* immersive-reader-sdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 400FF8145B63D730330873F59533004D /* Build configuration list for PBXAggregateTarget "immersive-reader-sdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4EE9DF17C7DBD2E5D59FCD1A7328976C /* PBXTargetDependency */,
+			);
+			name = "immersive-reader-sdk";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		488EFA969BE31D257A2E2F9205488B3C /* Pods-Immersive Reader _sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA1DADBCF8D1DAAE5D823E6FE5864 /* Pods-Immersive Reader _sample-dummy.m */; };
+		6462BFA509213B10E8D77D0D96148F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		972BE8485D45F7E63828F8CEB646B36F /* Pods-Immersive Reader _sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA48FC63ED033C64A27CDFE6956BA37 /* Pods-Immersive Reader _sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0DDEA9605EC8B21EBCE2CF832CBFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92EA244C138F8377331C29DEB979154;
+			remoteInfo = "immersive-reader-sdk";
+		};
+		96BB282BF575CE9D1C2300EA1E849ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3DCC74F4715A6DBB1E5A9E73E3DD63;
+			remoteInfo = "immersive-reader-sdk-immersive-reader-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FC2A4BD6ACE91A8525E7B16739DB9B /* Pods-Immersive Reader _sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Immersive Reader _sample.debug.xcconfig"; sourceTree = "<group>"; };
+		328475C33D763B9469EFBB699C48237A /* Pods-Immersive Reader _sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Immersive Reader _sample.release.xcconfig"; sourceTree = "<group>"; };
+		38EAD32F4C1E1014E8C36E44EE0F85C8 /* immersive-reader-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "immersive-reader-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		40845B0A84C174CB5562AFF2320E4F11 /* immersive-reader-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "immersive-reader-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		4CA48FC63ED033C64A27CDFE6956BA37 /* Pods-Immersive Reader _sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Immersive Reader _sample-umbrella.h"; sourceTree = "<group>"; };
+		6B8BA1DADBCF8D1DAAE5D823E6FE5864 /* Pods-Immersive Reader _sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Immersive Reader _sample-dummy.m"; sourceTree = "<group>"; };
+		6E6775EFEF57F77113DF3FD23AB209E3 /* Pods-Immersive Reader _sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Immersive Reader _sample.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84DC77FD40FDEAC567BAC110FD6D8687 /* Pods-Immersive Reader _sample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Immersive Reader _sample-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADE677564A641339B57C4DA01345A08A /* Pods-Immersive Reader _sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Immersive Reader _sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA14AA3316A92A59B19C5430A2A75A89 /* Pods-Immersive Reader _sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Immersive Reader _sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D16900E99B0763121E47DDB9C14A9341 /* Pods_Immersive_Reader__sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Immersive_Reader__sample.framework; path = "Pods-Immersive Reader _sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B93529D559254F35583365D34E3B60 /* Pods-Immersive Reader _sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Immersive Reader _sample-resources.sh"; sourceTree = "<group>"; };
+		D25BA381378E330245A1DCA67CEF1D59 /* ResourceBundle-immersive-reader-sdk-immersive-reader-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-immersive-reader-sdk-immersive-reader-sdk-Info.plist"; sourceTree = "<group>"; };
+		FB350E795DDDA58928CC11A1D47C64C8 /* immersive-reader-sdk.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "immersive-reader-sdk.bundle"; path = "immersive-reader-sdk-immersive-reader-sdk.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D60D39EE31CBECDB557E5E1677BB96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462BFA509213B10E8D77D0D96148F88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A607D9AD144BB534009B7CCFA98BEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1801EE082682B97F4DD6BBAE8D73987B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB350E795DDDA58928CC11A1D47C64C8 /* immersive-reader-sdk.bundle */,
+				D16900E99B0763121E47DDB9C14A9341 /* Pods_Immersive_Reader__sample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		94F65318B62A97A427C106941AA02D0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C63F7BA64B4BE00D6128DF92DE4334B6 /* Pods-Immersive Reader _sample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C63F7BA64B4BE00D6128DF92DE4334B6 /* Pods-Immersive Reader _sample */ = {
+			isa = PBXGroup;
+			children = (
+				6E6775EFEF57F77113DF3FD23AB209E3 /* Pods-Immersive Reader _sample.modulemap */,
+				BA14AA3316A92A59B19C5430A2A75A89 /* Pods-Immersive Reader _sample-acknowledgements.markdown */,
+				ADE677564A641339B57C4DA01345A08A /* Pods-Immersive Reader _sample-acknowledgements.plist */,
+				6B8BA1DADBCF8D1DAAE5D823E6FE5864 /* Pods-Immersive Reader _sample-dummy.m */,
+				84DC77FD40FDEAC567BAC110FD6D8687 /* Pods-Immersive Reader _sample-Info.plist */,
+				D1B93529D559254F35583365D34E3B60 /* Pods-Immersive Reader _sample-resources.sh */,
+				4CA48FC63ED033C64A27CDFE6956BA37 /* Pods-Immersive Reader _sample-umbrella.h */,
+				04FC2A4BD6ACE91A8525E7B16739DB9B /* Pods-Immersive Reader _sample.debug.xcconfig */,
+				328475C33D763B9469EFBB699C48237A /* Pods-Immersive Reader _sample.release.xcconfig */,
+			);
+			name = "Pods-Immersive Reader _sample";
+			path = "Target Support Files/Pods-Immersive Reader _sample";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D205846FFB2CCD606E0B1CB3E1A3526B /* Pods */,
+				1801EE082682B97F4DD6BBAE8D73987B /* Products */,
+				94F65318B62A97A427C106941AA02D0E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D205846FFB2CCD606E0B1CB3E1A3526B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D31C9E1E4202590DBBFDE69DA5D19F83 /* immersive-reader-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31C9E1E4202590DBBFDE69DA5D19F83 /* immersive-reader-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				E92E2DB472FEBCDB4058396C1D4E7084 /* Support Files */,
+			);
+			name = "immersive-reader-sdk";
+			path = "immersive-reader-sdk";
+			sourceTree = "<group>";
+		};
+		E92E2DB472FEBCDB4058396C1D4E7084 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40845B0A84C174CB5562AFF2320E4F11 /* immersive-reader-sdk.debug.xcconfig */,
+				38EAD32F4C1E1014E8C36E44EE0F85C8 /* immersive-reader-sdk.release.xcconfig */,
+				D25BA381378E330245A1DCA67CEF1D59 /* ResourceBundle-immersive-reader-sdk-immersive-reader-sdk-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/immersive-reader-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACD49CBF693F60F3877C9082EC09E133 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972BE8485D45F7E63828F8CEB646B36F /* Pods-Immersive Reader _sample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		289F4F3EE60FB0980A2BA944B1032905 /* Pods-Immersive Reader _sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD4BBEFD894102039F4A9DC3BAA84EC /* Build configuration list for PBXNativeTarget "Pods-Immersive Reader _sample" */;
+			buildPhases = (
+				ACD49CBF693F60F3877C9082EC09E133 /* Headers */,
+				6B5139AF87A9DA0C58FBEF3B71C91C55 /* Sources */,
+				2D60D39EE31CBECDB557E5E1677BB96D /* Frameworks */,
+				55079EDC2BB96CF75D94281160811DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB270DCDF873BE4D261D8F3EC5B4E462 /* PBXTargetDependency */,
+			);
+			name = "Pods-Immersive Reader _sample";
+			productName = "Pods-Immersive Reader _sample";
+			productReference = D16900E99B0763121E47DDB9C14A9341 /* Pods_Immersive_Reader__sample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB3DCC74F4715A6DBB1E5A9E73E3DD63 /* immersive-reader-sdk-immersive-reader-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C6D833F50B6AAB0085A2D2EB91BEC1 /* Build configuration list for PBXNativeTarget "immersive-reader-sdk-immersive-reader-sdk" */;
+			buildPhases = (
+				65B429CA5CA4444DC0E3B64E3612CFB5 /* Sources */,
+				9A607D9AD144BB534009B7CCFA98BEE7 /* Frameworks */,
+				98E48A8DEA320222D42FD98CE55D2149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "immersive-reader-sdk-immersive-reader-sdk";
+			productName = "immersive-reader-sdk-immersive-reader-sdk";
+			productReference = FB350E795DDDA58928CC11A1D47C64C8 /* immersive-reader-sdk.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1801EE082682B97F4DD6BBAE8D73987B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92EA244C138F8377331C29DEB979154 /* immersive-reader-sdk */,
+				EB3DCC74F4715A6DBB1E5A9E73E3DD63 /* immersive-reader-sdk-immersive-reader-sdk */,
+				289F4F3EE60FB0980A2BA944B1032905 /* Pods-Immersive Reader _sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55079EDC2BB96CF75D94281160811DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E48A8DEA320222D42FD98CE55D2149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B429CA5CA4444DC0E3B64E3612CFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5139AF87A9DA0C58FBEF3B71C91C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488EFA969BE31D257A2E2F9205488B3C /* Pods-Immersive Reader _sample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE9DF17C7DBD2E5D59FCD1A7328976C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "immersive-reader-sdk-immersive-reader-sdk";
+			target = EB3DCC74F4715A6DBB1E5A9E73E3DD63 /* immersive-reader-sdk-immersive-reader-sdk */;
+			targetProxy = 96BB282BF575CE9D1C2300EA1E849ACB /* PBXContainerItemProxy */;
+		};
+		EB270DCDF873BE4D261D8F3EC5B4E462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "immersive-reader-sdk";
+			target = A92EA244C138F8377331C29DEB979154 /* immersive-reader-sdk */;
+			targetProxy = 3C0DDEA9605EC8B21EBCE2CF832CBFC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46CC5E1683C381EDE1B765AA63ADE0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40845B0A84C174CB5562AFF2320E4F11 /* immersive-reader-sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6534CA05CE02A67700CC2AE01ED86657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EAD32F4C1E1014E8C36E44EE0F85C8 /* immersive-reader-sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3AD5F60C81141F2549E9536ADFD7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EAD32F4C1E1014E8C36E44EE0F85C8 /* immersive-reader-sdk.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/immersive-reader-sdk";
+				IBSC_MODULE = immersive_reader_sdk;
+				INFOPLIST_FILE = "Target Support Files/immersive-reader-sdk/ResourceBundle-immersive-reader-sdk-immersive-reader-sdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "immersive-reader-sdk";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8D697553DE89DB76985A9FC723A58930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FC2A4BD6ACE91A8525E7B16739DB9B /* Pods-Immersive Reader _sample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Immersive Reader _sample/Pods-Immersive Reader _sample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Immersive Reader _sample/Pods-Immersive Reader _sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B27EBD99C44E7E99A50076E83111F78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328475C33D763B9469EFBB699C48237A /* Pods-Immersive Reader _sample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Immersive Reader _sample/Pods-Immersive Reader _sample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Immersive Reader _sample/Pods-Immersive Reader _sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD71ED6E6E2BE80AE11CC69B17E67EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40845B0A84C174CB5562AFF2320E4F11 /* immersive-reader-sdk.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/immersive-reader-sdk";
+				IBSC_MODULE = immersive_reader_sdk;
+				INFOPLIST_FILE = "Target Support Files/immersive-reader-sdk/ResourceBundle-immersive-reader-sdk-immersive-reader-sdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "immersive-reader-sdk";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400FF8145B63D730330873F59533004D /* Build configuration list for PBXAggregateTarget "immersive-reader-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CC5E1683C381EDE1B765AA63ADE0F7 /* Debug */,
+				6534CA05CE02A67700CC2AE01ED86657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD4BBEFD894102039F4A9DC3BAA84EC /* Build configuration list for PBXNativeTarget "Pods-Immersive Reader _sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D697553DE89DB76985A9FC723A58930 /* Debug */,
+				B27EBD99C44E7E99A50076E83111F78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C6D833F50B6AAB0085A2D2EB91BEC1 /* Build configuration list for PBXNativeTarget "immersive-reader-sdk-immersive-reader-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD71ED6E6E2BE80AE11CC69B17E67EC5 /* Debug */,
+				7E3AD5F60C81141F2549E9536ADFD7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

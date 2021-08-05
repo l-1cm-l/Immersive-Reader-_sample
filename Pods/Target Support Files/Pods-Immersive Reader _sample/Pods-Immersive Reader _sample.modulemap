@@ -1,0 +1,6 @@
+framework module Pods_Immersive_Reader__sample {
+  umbrella header "Pods-Immersive Reader _sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
